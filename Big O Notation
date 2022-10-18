@@ -1,0 +1,34 @@
+Notasi O Besar atau Big-O Notation
+Ketika kita memikirkan apakah barisan kode yang kita ciptakan sudah cukup "cepat" atau efisien dalam memecahkan masalah yang ingin kita pecahkan, maka kita butuh sebuah metodologi untuk menghitungnya. Salah satu alat bantu yang bisa kita gunakan adalah notasi O besar atau Big-O Notation.
+
+Ini juga berarti kita ingin menghitung kompleksitas dari sebuah kode. Ada dua dimensi dalam menghitung kompleksitas kode. Pertama adalah kompleksitas ruang atau space complexity yang berkaitan dengan berapa banyak ruang yang digunakan seperti memori ataupun harddisk komputer. Kedua adalah kompleksitas waktu atau time complexity yang berkaitan berapa lama baris kode dijalankan.
+
+Kenapa dibutuhkan sebuah metode untuk menghitung efisiensi kode? Karena kita tidak bisa hanya mengatakan bahwa kumpulan kode ini dapat dijalankan selama lima detik. Padahal sangat banyak faktor penentu lainnya seperti jumlah datanya, koneksi, latensi, jumlah memori, kecepatan prosesor dan masih banyak yang lainnya.
+
+Karena itu kita butuh alat ukur untuk menghitung efisiensi kode secara relatif seperti notasi O besar ini.
+
+Sekilas Tentang Notasi O Besar
+Notasi O besar atau yang lazim disebut dengan Big-O Notation adalah sebuah cara atau metode untuk melakukan analisa terhadap sebuah algoritma pemrograman terhadap waktu eksekusi. Tentang seberapa efisien dan kompleksitas barisan kode dalam dimensi waktu.
+
+Di dalam sebuah program komputer pada umumnya, kita sudah lazim dengan istilah masukan-proses-keluaran.
+
+Beberapa Contoh Notasi O Besar
+Mari kita melihat contoh notasi O besar dari fungsi, ekspresi dan operasi JavaScript yang sederhana.
+
+1. Array.push()
+push() merupakan sebuah metode untuk menambahkan item baru kedalam sebuah array. Item yang ditambahkan akan berada diakhir array tersebut.
+
+2. Array.pop()
+pop() merupakan sebuah metode yang mengambil item terakhir dari array sehingga jumlah item yang ada di array akan berkurang satu.
+
+3. Array.unshift()
+unshift() adalah sebuah metode untuk menambahkan satu atau beberapa item ke bagian awal dari sebuah array. Contoh penggunaannya sebagai berikut.
+
+Kesimpulan
+Sebagai kesimpulan, notasi O besar atau Big-O Notation merupakan metode untuk menghitung kompleksitas dari potongan kode yang kita buat. Sehingga dapat menumbuhkan kesadaran kita untuk mencari alternatif yang lebih baik sebelum data semakin besar dan berdampak kepada performa aplikasi yang kita buat.
+
+Notasi O besar inipun tidak hanya semata berlaku di bagian kode yang kita tulis, namun di database pun berlaku. Jadi proses pengambilan data di database dengan sintaksis SQL yang dapat dianggap sebagai proses perulangan akan sangat tidak efektif jika di bagian algoritma kode kita kembali menggunakan perulangan. Maka proses tersebut akan menjadi O(n2) karena akan terdapat perulangan didalam perulangan.
+
+Begitu juga halnya jika kita mengambil data dengan tabel yang sudah diindeks. Secara otomatis notasinya akan berubah dari O(n) menjadi O(log n).
+
+Sumber : https://rizafahmi.com/2020/03/21/notasi-o-besar-big-o-notation/
